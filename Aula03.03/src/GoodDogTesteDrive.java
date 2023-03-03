@@ -3,15 +3,15 @@ public class GoodDogTesteDrive {
 	
 	public static void main(String[] args)
 	{
-		GoodDog primeiro = new GoodDog();
+		GoodDog	one = new GoodDog();
 		
-		primeiro.setSize(70);
+		one.setSize(70);
 		
-		GoodDog segundo = new GoodDog();
+		GoodDog two = new GoodDog();
 		
-		segundo.setSize(8);
+		two.setSize(8);
 		
-		System.out.print("Primeiro Dog: " + primeiro.getSize());
+		System.out.print("Primeiro Dog: " + one.getSize());
 		
 	}
 }
